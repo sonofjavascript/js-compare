@@ -1,6 +1,6 @@
 import * as Utils from './utils'
 
-const arrays = (a, b, keys) => {
+const equalArrays = (a, b, keys) => {
   if (a.length !== b.length) return false
 
   var n = (keys && keys.length) || a.length
@@ -15,23 +15,23 @@ const arrays = (a, b, keys) => {
   return true
 }
 
-const objects = (a, b) => {
+const equalObjects = (a, b) => {
   var keysA = Utils.keys(a)
   var keysB = Utils.keys(b)
 
   if (keysA.length !== keysB.length) return false
-  if (!arrays(keysA, keysB)) return false
+  if (!equalArrays(keysA, keysB)) return false
 
-  return arrays(a, b, keysA)
+  return equalArrays(a, b, keysA)
 }
 
-const simple = (a, b) => {
+const equalSimple = (a, b) => {
   if (a !== b) return a !== a && b !== b // eslint-disable-line
 
   return a !== 0 || 1 / a === 1 / b
 }
 
-const symbols = (a, b) => a.toString() === b.toString()
+const equalSymbols = (a, b) => a.toString() === b.toString()
 
 const equal = (a, b) => {
   if (Utils.isError(a) || Utils.isError(b)) throw new Error('Could not compare Error objects')
@@ -39,11 +39,11 @@ const equal = (a, b) => {
 
   if (!Utils.haveSameType(a, b)) return false
 
-  if (Utils.isArray(a)) return arrays(a, b)
-  if (Utils.isObject(a)) return objects(a, b)
-  if (Utils.isSymbol(a)) return symbols(a, b)
+  if (Utils.isArray(a)) return equalArrays(a, b)
+  if (Utils.isObject(a)) return equalObjects(a, b)
+  if (Utils.isSymbol(a)) return equalSymbols(a, b)
 
-  return simple(a, b)
+  return equalSimple(a, b)
 }
 
 export default equal
