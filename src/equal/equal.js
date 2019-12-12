@@ -1,4 +1,4 @@
-import Utils from '@utils'
+import * as Utils from '@utils'
 
 const equalArrays = (a, b, keys) => {
   if (a.length !== b.length) return false

@@ -5,10 +5,11 @@
   "description": "Tool for comparing Javascript objects",
   "main": "lib/index.js",
   "scripts": {
+    "build": "BABEL_ENV=production babel src -d lib",
+    "test:dev": "jest --watchAll",
+    "test": "jest --coverage && cat ./coverage/lcov.info | coverall",
     "linter-fix": "standard --fix",
-    "linter-check": "standard",
-    "test": "jest --watchAll ",
-    "build": "babel src -d lib"
+    "linter-check": "standard"
   },
   "keywords": [
     "JSON",
@@ -23,7 +24,6 @@
     ]
   },
   "jest": {
-    "collectCoverage": true,
     "collectCoverageFrom": [
       "./src/**/*.js",
       "!**/**/index.js",
@@ -36,7 +36,9 @@
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
+    "babel-minify": "^0.5.1",
     "babel-plugin-module-resolver": "^4.0.0",
+    "coveralls": "^3.0.9",
     "jest": "^24.9.0",
     "standard": "^14.3.1"
   },
