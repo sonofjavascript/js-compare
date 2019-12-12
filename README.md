@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/<your-account>/<your-repo>.svg?branch=master)](https://travis-ci.org/taniarascia/chip8)
+
+[![Coverage Status](https://coveralls.io/repos/github/<your-account>/<your-repo>/badge.svg?branch=master)](https://coveralls.io/github/taniarascia/chip8?branch=master)
+
 <img src='https://www.brickfieldidiomas.com/wp-content/uploads/2015/12/Comparing_Apples_to_OrangesjsxDetail.png' />
 
 # JS Compare
@@ -109,4 +113,3 @@ Albert Pérez Farrés
 
 ## License
  - **MIT** : http://opensource.org/licenses/MIT
- 
