@@ -1,4 +1,4 @@
-import equal from '../src/index'
+import equal from '@equal'
 
 test('Compare with null should return true', () => {
   expect(equal(null, null)).toBeTruthy()

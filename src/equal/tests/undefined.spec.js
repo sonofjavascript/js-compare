@@ -1,4 +1,4 @@
-import equal from '../src/index'
+import equal from '@equal'
 
 test('Compare same undefined should return true', () => {
   expect(equal(undefined, undefined)).toBeTruthy()

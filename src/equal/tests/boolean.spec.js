@@ -1,4 +1,4 @@
-import equal from '../src/index'
+import equal from '@equal'
 
 test('Compare true with true return true', () => {
   expect(equal(true, true)).toBeTruthy()

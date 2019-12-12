@@ -1,4 +1,4 @@
-import equal from '../src/index'
+import equal from '@equal'
 
 test('Compare Function on first parameter should throw error', () => {
   function a () {}

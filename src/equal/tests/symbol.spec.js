@@ -1,4 +1,4 @@
-import equal from '../src/index'
+import equal from '@equal'
 
 test('Compare with same symbol string should return true', () => {
   expect(equal(Symbol('::symbol::'), Symbol('::symbol::'))).toBeTruthy()

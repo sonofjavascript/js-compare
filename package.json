@@ -5,8 +5,8 @@
   "description": "Tool for comparing Javascript objects",
   "main": "lib/index.js",
   "scripts": {
-    "standard": "standard --fix",
-    "check-standard": "standard",
+    "linter-fix": "standard --fix",
+    "linter-check": "standard",
     "test": "jest --watchAll ",
     "build": "babel src -d lib"
   },
@@ -36,6 +36,7 @@
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
+    "babel-plugin-module-resolver": "^4.0.0",
     "jest": "^24.9.0",
     "standard": "^14.3.1"
   },

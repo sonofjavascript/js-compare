@@ -1,4 +1,4 @@
-import equal from '../src/index'
+import equal from '@equal'
 
 test('Compare empty objects should return true', () => {
   const object1 = {}
@@ -34,6 +34,11 @@ test('Compare distinct objects should return false - 3', () => {
   const object1 = { key1: [] }
   const object2 = { key1: {} }
   expect(equal(object1, object2)).toBeFalsy()
+})
+
+test('Compare objects with distinct keys length, should return false', () => {
+  const result = equal({}, { key: '::key::' })
+  expect(result).toBeFalsy()
 })
 
 test('Compare with undefined should return false', () => {

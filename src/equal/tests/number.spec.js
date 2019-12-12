@@ -1,4 +1,4 @@
-import equal from '../src/index'
+import equal from '@equal'
 
 test('Compare with same integer value should return true', () => {
   expect(equal(1, 1)).toBeTruthy()
@@ -78,4 +78,14 @@ test('Compare integer with symbol should return false', () => {
 
 test('Compare float with symbol should return false', () => {
   expect(equal(0.1, Symbol('::symbol::'))).toBeFalsy()
+})
+
+test('Compare NaN with symbol should return true', () => {
+  const result = equal(0 / 0, 0 / 0)
+  expect(result).toBeTruthy()
+})
+
+test('Compare 0 values should return true', () => {
+  const result = equal(0, 0)
+  expect(result).toBeTruthy()
 })

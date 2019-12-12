@@ -35,7 +35,7 @@ test('isObject - Should return false when parameter is not an object', () => {
   expect(result).toBeFalsy()
 })
 
-test('isObject - Should return true when parameter an array', () => {
+test('isObject - Should return true when parameter an object', () => {
   const result = Utils.isObject({})
   expect(result).toBeTruthy()
 })

@@ -1,3 +1,3 @@
 import equal from './equal'
 
-export { equal }
+export default equal

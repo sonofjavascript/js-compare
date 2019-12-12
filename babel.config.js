@@ -12,4 +12,16 @@ const presets = [
   ]
 ]
 
-module.exports = { presets }
+const plugins = [
+  [
+    'module-resolver',
+    {
+      alias: {
+        '@equal': './src/equal',
+        '@utils': './src/utils'
+      }
+    }
+  ]
+]
+
+module.exports = { presets, plugins }

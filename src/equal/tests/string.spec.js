@@ -1,4 +1,4 @@
-import equal from '../src/index'
+import equal from '@equal'
 
 test('Compare with same string should return true', () => {
   expect(equal('::string::', '::string::')).toBeTruthy()
