@@ -1,4 +1,4 @@
-import equal from '@equal/equal.js'
+import equal from '@equal'
 
 test('Compare empty arrays should return true', () => {
   const array1 = []
