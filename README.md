@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/<your-account>/<your-repo>.svg?branch=master)](https://travis-ci.org/taniarascia/chip8)
+[![Build Status](https://travis-ci.com/sonofjavascript/js-compare.svg?branch=master)](https://travis-ci.com/sonofjavascript/js-compare)
 
-[![Coverage Status](https://coveralls.io/repos/github/<your-account>/<your-repo>/badge.svg?branch=master)](https://coveralls.io/github/taniarascia/chip8?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/sonofjavascript/js-compare/badge.svg)](https://coveralls.io/github/sonofjavascript/js-compare)
 
 <img src='https://www.brickfieldidiomas.com/wp-content/uploads/2015/12/Comparing_Apples_to_OrangesjsxDetail.png' />
 
