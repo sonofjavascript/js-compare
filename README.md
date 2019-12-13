@@ -1,4 +1,6 @@
-# JS Compare [![Build Status](https://travis-ci.com/sonofjavascript/js-compare.svg?branch=master)](https://travis-ci.com/sonofjavascript/js-compare) [![Coverage Status](https://coveralls.io/repos/github/sonofjavascript/js-compare/badge.svg)](https://coveralls.io/github/sonofjavascript/js-compare)
+[![Build Status](https://travis-ci.com/sonofjavascript/js-compare.svg?branch=master)](https://travis-ci.com/sonofjavascript/js-compare) [![Coverage Status](https://coveralls.io/repos/github/sonofjavascript/js-compare/badge.svg)](https://coveralls.io/github/sonofjavascript/js-compare)
+
+# JS Compare
 
 <img src='https://www.brickfieldidiomas.com/wp-content/uploads/2015/12/Comparing_Apples_to_OrangesjsxDetail.png' />
 
