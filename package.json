@@ -12,10 +12,16 @@
     "linter-check": "standard"
   },
   "keywords": [
-    "JSON",
+    "json",
+    "javascript",
+    "object",
     "objects",
     "compare",
-    "equals"
+    "equallity",
+    "equal",
+    "equals",
+    "check",
+    "empty"
   ],
   "license": "MIT",
   "publishConfig": {
