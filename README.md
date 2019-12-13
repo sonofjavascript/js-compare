@@ -19,7 +19,7 @@ npm install --save @sonofjavascript/js-compare
 Compares if two javascript objects are equal. 
 
 #### Objects
-The keys are compared with the values. Objects will be equally true when have the same keys with the same values. Values can be objects itself or whatever Javascript object type.
+The keys are compared with the values. Objects will be equally true when have the same keys with the same values. Values can be objects itself or any Javascript object type.
 ```
 import { equal } from '@sonofjavascript/js-compare'
 
@@ -94,7 +94,7 @@ isEmpty(['::value::']) // false
 ```
 
 #### Atomic types
-Simple javascript types can be checked if it is empty too, although you can do it simplier comparing it to `undefined`/`null` without using this library.
+Simple javascript types can be checked if they are empty too, although you can do it simplier comparing it to `undefined`/`null` without using this library.
 ```
 import { isEmpty }  from '@sonofjavascript/js-compare'
 
