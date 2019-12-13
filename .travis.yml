@@ -1,22 +1,26 @@
 language: node_js
 
 node_js:
-  - '11'
+  - '8'
 
-before_install:
-  - npm i -g makeshift && makeshift -s @sonofjavascript -r registry.npmjs.org
-
-script:
-  - npm run linter-check
-  - npm run test
-
-before_deploy:
-  - npm run build
-
-deploy:
-  provider: npm
-  email: $NPM_EMAIL
-  api_key: $NPM_TOKEN
-  cleanup: true
-  on:
-    branch: master
+jobs:
+  include:
+    - stage: Build and test
+      script:
+        - npm run linter-check
+        - npm run test
+    - stage: npm release
+      script: npm run build
+      deploy:
+        provider: npm
+        email: '$NPM_EMAIL'
+        api_key: '$NPM_TOKEN'
+        skip_cleanup: true
+        on:
+          tags: true
+          
+branches:
+  only:
+    - master
+    - /^v[0-9]+.*$/
+  
