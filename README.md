@@ -10,8 +10,8 @@ Note: *Errors and Functions objects are not allowed to compare*.
 
 ## Installation
 
-npm install --save @sonofjavascript/js-compare
 ```
+npm install --save @sonofjavascript/js-compare
 ```
 
 ## Methods
