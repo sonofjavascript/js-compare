@@ -3,6 +3,9 @@ language: node_js
 node_js:
   - '11'
 
+before_install:
+  - npm i -g makeshift && makeshift -s @sonofjavascript -r registry.npmjs.org
+
 script:
   - npm run linter-check
   - npm run test
@@ -12,8 +15,8 @@ before_deploy:
 
 deploy:
   provider: npm
-  email: "$NPM_EMAIL"
-  api_key: "$NPM_TOKEN"
+  email: $NPM_EMAIL
+  api_key: $NPM_TOKEN
   cleanup: true
   on:
     branch: master
