@@ -1,3 +1,4 @@
-import equal from './equal'
+import equal from './equal/equal'
+import isEmpty from './isEmpty/isEmpty'
 
-export { equal }
+export { equal, isEmpty }

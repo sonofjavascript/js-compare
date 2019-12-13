@@ -1,4 +1,4 @@
-import Utils from '@utils'
+import * as Utils from '@utils'
 
 const isEmpty = value => {
   if (Utils.isError(value)) throw new Error('Could not check if Error is empty')

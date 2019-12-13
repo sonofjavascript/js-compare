@@ -17,11 +17,22 @@ const plugins = [
     'module-resolver',
     {
       alias: {
-        '@equal': './src/equal',
-        '@utils': './src/utils'
+        '@equal': './src/equal/equal.js',
+        '@utils': './src/utils/utils.js'
       }
     }
   ]
 ]
 
-module.exports = { presets, plugins }
+const env = {
+  production: {
+    presets: ['minify'],
+    ignore: [
+      'src/**/*.spec.js',
+      '**/*.spec.js',
+      '**.spec.js'
+    ]
+  }
+}
+
+module.exports = { presets, plugins, env }
