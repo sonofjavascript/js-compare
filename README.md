@@ -4,7 +4,7 @@
 
 <img src='https://www.brickfieldidiomas.com/wp-content/uploads/2015/12/Comparing_Apples_to_OrangesjsxDetail.png' />
 
-Lightweight (16K) and simple Javascript tool to compare equality with **objects**, **arrays** and other Javascript object types.
+Lightweight and simple Javascript tool to compare equality with **objects**, **arrays** and other Javascript object types.
 
 Note: *Errors and Functions objects are not allowed to compare*.
 
