@@ -1,8 +1,8 @@
 {
-  "name": "js-compare",
+  "name": "@sonofjavascript/js-compare",
   "author": "Albert Pérez Farrés",
   "version": "1.0.0",
-  "description": "Tool for comparing Javascript objects",
+  "description": "Lightweight (16K) and simple Javascript tool to compare equality with objects, arrays and other Javascript object types.",
   "main": "lib/index.js",
   "scripts": {
     "build": "BABEL_ENV=production babel src -d lib",
