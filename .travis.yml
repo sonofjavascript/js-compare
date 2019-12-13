@@ -9,7 +9,7 @@ jobs:
       script:
         - npm run linter-check
         - npm run test
-    - stage: npm release
+    - stage: Release
       script: npm run build
       deploy:
         edge: true
