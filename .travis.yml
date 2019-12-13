@@ -1,4 +1,5 @@
 language: node_js
+version: 1.0
 
 node_js:
   - '8'
@@ -12,13 +13,14 @@ jobs:
     - stage: npm release
       script: npm run build
       deploy:
+        edge: true
         provider: npm
         email: '$NPM_EMAIL'
         api_key: '$NPM_TOKEN'
         skip_cleanup: true
         on:
           tags: true
-          
+
 branches:
   only:
     - master
