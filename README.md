@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/sonofjavascript/js-compare.svg?branch=master)](https://travis-ci.com/sonofjavascript/js-compare) [![Coverage Status](https://coveralls.io/repos/github/sonofjavascript/js-compare/badge.svg)](https://coveralls.io/github/sonofjavascript/js-compare)
+![npm](https://img.shields.io/npm/v/@sonofjavascript/js-compare.svg) [![Build Status](https://travis-ci.com/sonofjavascript/js-compare.svg?branch=master)](https://travis-ci.com/sonofjavascript/js-compare) [![Coverage Status](https://coveralls.io/repos/github/sonofjavascript/js-compare/badge.svg)](https://coveralls.io/github/sonofjavascript/js-compare) ![license](https://img.shields.io/npm/l/@sonofavascript/js-compare.svg)
 
 # JS Compare
 
