@@ -1,7 +1,7 @@
 {
   "name": "@sonofjavascript/js-compare",
   "author": "Albert Pérez Farrés",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Lightweight and simple Javascript tool to compare equality with objects, arrays and other Javascript object types.",
   "main": "lib/index.js",
   "scripts": {
@@ -18,6 +18,9 @@
     "equals"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "standard": {
     "env": [
       "jest"
