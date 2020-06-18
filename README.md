@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/v/@sonofjs/js-compare.svg) [![Build Status](https://travis-ci.com/sonofjs/js-compare.svg?branch=master)](https://travis-ci.com/sonofjavascript/js-compare) [![Coverage Status](https://coveralls.io/repos/github/sonofjavascript/js-compare/badge.svg)](https://coveralls.io/github/sonofjavascript/js-compare) [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
+![npm](https://img.shields.io/npm/v/@sonofjs/js-compare.svg) [![Build Status](https://travis-ci.com/sonofjavascript/js-compare.svg?branch=master)](https://travis-ci.com/sonofjavascript/js-compare) [![Coverage Status](https://coveralls.io/repos/github/sonofjavascript/js-compare/badge.svg)](https://coveralls.io/github/sonofjavascript/js-compare) [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 # JS Compare
 
