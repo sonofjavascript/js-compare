@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/v/@sonofjavascript/js-compare.svg) [![Build Status](https://travis-ci.com/sonofjavascript/js-compare.svg?branch=master)](https://travis-ci.com/sonofjavascript/js-compare) [![Coverage Status](https://coveralls.io/repos/github/sonofjavascript/js-compare/badge.svg)](https://coveralls.io/github/sonofjavascript/js-compare) [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
+![npm](https://img.shields.io/npm/v/@sonofjs/js-compare.svg) [![Build Status](https://travis-ci.com/sonofjs/js-compare.svg?branch=master)](https://travis-ci.com/sonofjs/js-compare) [![Coverage Status](https://coveralls.io/repos/github/sonofjs/js-compare/badge.svg)](https://coveralls.io/github/sonofjs/js-compare) [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 # JS Compare
 
@@ -11,7 +11,7 @@ Note: *Errors and Functions objects are not allowed to compare*.
 ## Installation
 
 ```
-npm install --save @sonofjavascript/js-compare
+npm install --save @sonofjs/js-compare
 ```
 
 ## Methods
@@ -21,7 +21,7 @@ Compares if two javascript objects are equal.
 #### Objects
 The keys are compared with the values. Objects will be equally true when have the same keys with the same values. Values can be objects itself or any Javascript object type.
 ```
-import { equal } from '@sonofjavascript/js-compare'
+import { equal } from '@sonofjs/js-compare'
 
 const object1 = { key: '::value::' }
 const object2 = { key: '::value::' }
@@ -34,7 +34,7 @@ equal(object1, object3) // false
 #### Arrays
 An array can contain any kind of Javascript object type. The only matters is the order and the items value.
 ```
-import { equal } from '@sonofjavascript/js-compare'
+import { equal } from '@sonofjs/js-compare'
 
 const array1 = ['::value1::', '::value2::']
 const array2 = ['::value1::', '::value2::']
@@ -48,7 +48,7 @@ equal(array1, array3) // false
 Simple javascript types can be compared too, although these comparations can be implemented in a much more simple way in pure Javascript with the `===` operator.
 
 ```
-import { equal } from '@sonofjavascript/js-compare'
+import { equal } from '@sonofjs/js-compare'
 
 equal(1, 1) // true
 equal(1, 2) // false
@@ -76,7 +76,7 @@ Check if a Javascript object is empty.
 #### Objects
 Check if is not defined or has no keys.
 ```
-import { isEmpty }  from '@sonofjavascript/js-compare'
+import { isEmpty }  from '@sonofjs/js-compare'
 
 isEmpty() // true
 isEmpty({}) // true
@@ -86,7 +86,7 @@ isEmpty({ key: '::value::' }) // false
 #### Arrays
 Check if is not defined or has more than one items.
 ```
-import { isEmpty }  from '@sonofjavascript/js-compare'
+import { isEmpty }  from '@sonofjs/js-compare'
 
 isEmpty() // true
 isEmpty([]) // true
@@ -96,7 +96,7 @@ isEmpty(['::value::']) // false
 #### Atomic types
 Simple javascript types can be checked if they are empty too, although you can do it simplier comparing it to `undefined`/`null` without using this library.
 ```
-import { isEmpty }  from '@sonofjavascript/js-compare'
+import { isEmpty }  from '@sonofjs/js-compare'
 
 isEmpty() // true
 isEmpty(null) // true

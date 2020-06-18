@@ -1,5 +1,5 @@
 {
-  "name": "@sonofjavascript/js-compare",
+  "name": "@sonofjs/js-compare",
   "author": "Albert Pérez Farrés",
   "version": "1.0.5",
   "description": "Lightweight and simple Javascript tool to compare equality with objects, arrays and other Javascript object types.",
@@ -45,13 +45,13 @@
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
-    "babel-minify": "^0.5.1",
+    "babel-preset-minify": "^0.5.1",
     "babel-plugin-module-resolver": "^4.0.0",
     "coveralls": "^3.0.9",
     "jest": "^24.9.0",
-    "standard": "^14.3.1"
+    "standard": "^14.3.4"
   },
   "dependencies": {
-    "core-js": "^3.3.1"
+    "core-js": "^3.6.5"
   }
 }
