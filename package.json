@@ -1,5 +1,5 @@
 {
-  "name": "@sonofjs/js-compare",
+  "name": "@sonofjavascript/js-compare",
   "author": "Albert Pérez Farrés",
   "version": "1.0.6",
   "description": "Lightweight and simple Javascript tool to compare equality with objects, arrays and other Javascript object types.",
