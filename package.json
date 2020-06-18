@@ -1,7 +1,7 @@
 {
-  "name": "@sonofjavascript/js-compare",
+  "name": "@sonofjs/js-compare",
   "author": "Albert Pérez Farrés",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Lightweight and simple Javascript tool to compare equality with objects, arrays and other Javascript object types.",
   "main": "lib/index.js",
   "scripts": {
@@ -10,6 +10,10 @@
     "test": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "linter-fix": "standard --fix",
     "linter-check": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonofjavascript/js-compare.git"
   },
   "keywords": [
     "json",
@@ -42,16 +46,16 @@
     "coverageDirectory": "./coverage"
   },
   "devDependencies": {
-    "@babel/cli": "^7.6.4",
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "babel-minify": "^0.5.1",
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
     "babel-plugin-module-resolver": "^4.0.0",
-    "coveralls": "^3.0.9",
-    "jest": "^24.9.0",
-    "standard": "^14.3.1"
+    "babel-preset-minify": "^0.5.1",
+    "coveralls": "^3.1.0",
+    "jest": "^26.0.1",
+    "standard": "^14.3.4"
   },
   "dependencies": {
-    "core-js": "^3.3.1"
+    "core-js": "^3.6.5"
   }
 }
