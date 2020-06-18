@@ -1,7 +1,7 @@
 {
   "name": "@sonofjs/js-compare",
   "author": "Albert Pérez Farrés",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Lightweight and simple Javascript tool to compare equality with objects, arrays and other Javascript object types.",
   "main": "lib/index.js",
   "scripts": {
@@ -12,8 +12,8 @@
     "linter-check": "standard"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/sonofjavascript/js-compare.git"
+    "type": "git",
+    "url": "https://github.com/sonofjavascript/js-compare.git"
   },
   "keywords": [
     "json",
